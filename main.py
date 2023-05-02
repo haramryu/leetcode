@@ -1,3 +1,4 @@
+import asyncio
 from fastapi import FastAPI, Form, Request
 from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
@@ -30,3 +31,14 @@ async def show_result(request: Request, url: str = Form(...)):
     answer = response['choices'][0]['message']['content']
 
     return templates.TemplateResponse("result.html", {"request": request, "text": text, "answer": answer})
+
+
+def run_asyncio(app, host='127.0.0.1', port=8000):
+    loop = asyncio.get_event_loop()
+    server = loop.run_until_complete(uvicorn.create_server(
+        app, host=host, port=port, log_level='info'))
+    loop.run_forever()
+
+
+if __name__ == "__main__":
+    run_asyncio(app)
