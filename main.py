@@ -7,8 +7,7 @@ import openai
 
 app = FastAPI()
 templates = Jinja2Templates(directory="templates")
-
-openai.api_key = ""
+openai.api_key = "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"
 
 
 @app.get("/", response_class=HTMLResponse)
