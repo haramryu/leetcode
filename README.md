@@ -6,16 +6,19 @@
 학습 데이터도 많아서 잘 풀겠지??
 
 leetcode 고  
+
 <kbd><img width="727" alt="image" src="https://github.com/haramryu/leetcode/assets/22101375/299fef91-411f-41d9-8bf1-6ad5c3108ddb"></kbd>
 
 
 문제 복사해서 붙여넣고,  
 C++로 풀어달라고 해보자  
+
 <kbd><img width="754" alt="image" src="https://github.com/haramryu/leetcode/assets/22101375/c148dcb1-cfbb-4e9f-8752-b81b327588c0"></kbd>
 
 
 복사해서 붙여넣으면?  
-짠 Accept
+짠 Accept. 
+
 <kbd><img width="1502" alt="image" src="https://github.com/haramryu/leetcode/assets/22101375/7addb845-f915-4af2-b45e-86d326e12cfc"></kbd>
 
 통과 못하는 경우도 있다고 합니다.(by 규병님)  
@@ -38,13 +41,23 @@ ChatGPT는 거짓말을 한다.
 없는 걸 있는 것처럼, 안되는 걸 되는 것처럼.  
 ChatGPT도 하고 Bing AI도 하고 Bard도 하고 다 한다고 한다.  
 
-#### 잘은 모르지만 AutoGPT 개발자도 그래서 시작하지 않았나 싶습니다.
-ChatGPT에서 나온 결과를 다시 넣어서 구글 검색도 하고, 
-소개 주르르륵
+#### AutoGPT 소개
+- ChatGPT는 질문 하나하면 응답 한번 하고 끝
+- 목표를 정해주면, 생각해서 계획하고 행동을 반복
+- 장기 기억 할 내용을 DB에 저장하기도 함
+- 할 수 있는 것
+  - 웹사이트 하나 만들어 봐라 --> node js 다운 받고 코딩 해줌
+  - 신발을 팔건데 시장 분석 해줘 --> 경쟁사 사이트 들어가서 장단점 분석 및 요약 리포트 txt파일로 작성
+- 그러나 아직 장난감 수준이라고 함(by 코딩애플)
+- 그런데 GitHub star가 이렇게 증가하고,
+<kbd>![image](https://github.com/haramryu/leetcode/assets/22101375/8f8b2387-9eb0-4e10-afe3-f6407640cde9)</kbd>
+- 도네이션으로 월 3만달러를 벌고 있다고 합니다.
 
-도네이션으로 월 3만달러를 벌고 있다고 합니다.  
-Python으로만 짰습니다.  
-사실상 아이디어 전쟁 아닙니까??  
 
-#### AutoGPT 코드 분석
-나도 할 수 있겠는데..?  
+#### AutoGPT 코드 분석...
+- System
+- Thoughts
+- Reasoning
+- Plan
+- Criticism
+- Next Action
